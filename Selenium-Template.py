@@ -13,7 +13,7 @@ driver = webdriver.Chrome(options=chrome_options)
 
 def test_login_logout(browser):
     # Go to the home page
-    browser.get("https://www.example.com")
+    browser.get("https://practicetestautomation.com/practice-test-login/")
     
     # Verify the home page is displayed correctly
     assert "Example Domain" in browser.title
